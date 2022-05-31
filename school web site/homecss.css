@@ -1,0 +1,493 @@
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+  
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: rgb(196, 192, 192);
+}
+
+h1{
+ text-align: right;
+ font-family:'Times New Roman', Times, serif;
+ font-size: 25pt;
+ font-weight: bold;
+ color: white;
+ background-color:rgb(160, 24, 24);
+}
+
+h2{
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: black;
+
+}
+h3{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+
+}
+h4{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 13pt;
+     background-color: rgb(160, 24, 24);
+     color: white;
+ }
+
+h5{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: #000;
+    font-weight: bold;
+}
+
+h6{
+    color: white;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    background-color: rgb(160, 24, 24);
+    padding: 20px 20px 20px 40px;
+    border-radius: 5px;
+}
+#estuimg{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+
+#announcements{
+ text-align: left;
+ font-family:'Times New Roman', Times, serif;
+ font-size: large;
+ background-color: #f1f1f1;
+ margin: 0;
+ background-size: 40px;
+ border-color: #555;
+ list-style-type: none;
+}
+
+#a1{ display: none }
+
+#a1:target { display: block }
+
+#a2{ display: none }
+
+#a2:target { display: block }
+
+#a3{ display: none }
+
+#a3:target { display: block }
+
+#a4{ display: none }
+
+#a4:target { display: block }
+
+#menu  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #999;
+}
+
+#menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+  
+#menu li a{
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+  
+#menu li a:hover {
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu li a:active{
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+    
+body { 
+    margin: 0; 
+} 
+    
+#slider { 
+    overflow: hidden;
+}
+    
+#slider figure img { 
+    width:20%; float: left;
+    height: 370px;
+}
+    
+#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+}
+
+#slider:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3); 
+    transform: scale(1.3);
+}
+
+
+
+
+.dropbtn {
+    background-color: #f1f1f1 ;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+  
+ 
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.dropdown-content a:hover {
+    background-color: #555;
+    color: white;
+}
+  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #555;
+    color: white;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+.ex {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    background: white;
+    background-size: auto;
+    padding: 20px 20px 20px 20px;
+    font-size: medium;
+}
+  
+.ex li {
+    height: auto;
+    border-top: 1px solid rgb(160, 24, 24);
+}
+
+.ex .container {
+    position: relative;
+    height: auto;
+}
+
+.ex [type="checkbox"] {
+    position: absolute;
+    left: -9999px; 
+}
+
+.ex label {
+    display: block;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+
+.ex label:before,label:after {
+  position: absolute;
+}
+
+.ex label:before {
+  content: 'More';
+  left: 10px;
+}
+
+.ex label:after {
+  content: '⇣●';
+  right: 10px;
+  animation: sudo .85s linear infinite alternate;
+}
+
+@keyframes sudo { 
+  from { 
+    transform: translateY(-2px); 
+  }
+  to { 
+    transform: translateY(2px); 
+  }   
+}
+
+.ex [type="checkbox"] ~ ul {
+    display: none;
+}
+
+.ex [type="checkbox"]:checked ~ ul {
+    display: block;
+}
+
+.ex [type="checkbox"]:checked + label {
+    top: 100%;
+}
+
+.ex [type="checkbox"]:checked + label:before {
+    content: 'Less';
+}
+  
+.ex [type="checkbox"]:checked + label:after {
+    content: '⇡●'; 
+}
+
+.ex1 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    background: white;
+    padding: 20px 20px 20px 20px;
+    background-size: 40px;
+    font-size: medium;
+}
+  
+.ex1 li {
+    height: auto;
+    border-top: 1px solid rgb(160, 24, 24);
+  }
+
+.ex1 .container {
+    position: relative;
+    height: auto;
+}
+
+.ex1 [type="checkbox"] {
+    position: absolute;
+    left: -9999px; 
+}
+
+.ex1 label {
+    display: block;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+
+.ex1 label:before,label:after {
+  position: absolute;
+}
+
+.ex1 label:before {
+  content: 'More';
+  left: 10px;
+}
+
+.ex1 label:after {
+  content: '⇣●';
+  right: 10px;
+  animation: sudo .85s linear infinite alternate;
+}
+
+@keyframes sudo { 
+  from { 
+    transform: translateY(-2px); 
+  }
+  to { 
+    transform: translateY(2px); 
+  }   
+}
+
+.ex1 [type="checkbox"] ~ ul {
+    display: none;
+}
+
+.ex1 [type="checkbox"]:checked ~ ul {
+    display: block;
+}
+
+.ex1 [type="checkbox"]:checked + label {
+    top: 100%;
+}
+
+.ex1 [type="checkbox"]:checked + label:before {
+    content: 'Less';
+}
+  
+.ex1 [type="checkbox"]:checked + label:after {
+    content: '⇡●'; 
+}
+
+.ex2 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    background: white;
+    padding: 20px 20px 20px 20px;
+    font-size: medium;
+  }
+  
+.ex2 li {
+    height: auto;
+    border-top: 1px solid rgb(160, 24, 24);
+  }
+
+.ex2 .container {
+    position: relative;
+    height: auto;
+}
+
+.ex2 [type="checkbox"] {
+    position: absolute;
+    left: -9999px; 
+}
+
+.ex2 label {
+    display: block;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+
+.ex2 label:before,label:after {
+  position: absolute;
+}
+
+.ex2 label:before {
+  content: 'More';
+  left: 10px;
+}
+
+.ex2 label:after {
+  content: '⇣●';
+  right: 10px;
+  animation: sudo .85s linear infinite alternate;
+}
+
+@keyframes sudo { 
+  from { 
+    transform: translateY(-2px); 
+  }
+  to { 
+    transform: translateY(2px); 
+  }   
+}
+
+.ex2 [type="checkbox"] ~ ul {
+    display: none;
+}
+
+.ex2 [type="checkbox"]:checked ~ ul {
+    display: block;
+}
+
+.ex2 [type="checkbox"]:checked + label {
+    top: 100%;
+}
+
+.ex2 [type="checkbox"]:checked + label:before {
+    content: 'Less';
+}
+  
+.ex2 [type="checkbox"]:checked + label:after {
+    content: '⇡●'; 
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+td, th {
+    border: 1px solid #999;
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+  }
+
+
+
+
